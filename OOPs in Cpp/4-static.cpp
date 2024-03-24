@@ -21,3 +21,35 @@ int main() {
     cout << A::b << endl; 
     
 }
+
+
+
+#include <iostream>
+using namespace std;
+class A {
+public:
+    int a;
+    static string s;
+
+    A(int aa) {
+        a = aa;
+    }
+
+    void display() {
+        cout << " " << a << endl;
+        cout << " " << s << endl;
+    }
+};
+
+string A::s = "GEHU"; // Definition and initialization of static member variable
+
+int main() {
+    A aaa(10);
+    aaa.display();
+
+    A bbb(20);
+    bbb.display();
+
+    return 0;
+}
+
