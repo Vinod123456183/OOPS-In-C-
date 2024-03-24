@@ -1,3 +1,8 @@
+// oops is a programming approach in which we divide program into small part and then we do prograaming seprreatly
+// universe is a class and it is denoted by small obj milky way
+// class is combiantion of data member and member function
+
+// Add Two no using Class
 #include <iostream>
 using namespace std;
 class Add {
