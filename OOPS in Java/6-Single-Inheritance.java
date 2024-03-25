@@ -39,3 +39,59 @@ class single
 
 
 }
+
+
+
+
+
+
+
+
+// Code 2 
+
+import java.util.Scanner;
+
+public class single {
+    static class A {
+        protected int x;
+
+        public void input() {
+            System.out.println("Enter x");
+            Scanner scanner = new Scanner(System.in);
+            x = scanner.nextInt();
+        }
+    }
+
+    // static class B {
+    //     protected int y;
+
+    //     public void get_y() {
+    //         System.out.println("Enter Y");
+    //         Scanner scanner = new Scanner(System.in);
+    //         y = scanner.nextInt();
+    //     }
+    // }
+
+    static class C extends A {
+        protected int z;
+
+        public void get_z() {
+            System.out.println("Enter z");
+            Scanner scanner = new Scanner(System.in);
+            z = scanner.nextInt();
+        }
+
+        public void ans() {
+            System.out.println("Sum IS " + (x + z));
+        }
+    }
+
+    public static void main(String[] args) {
+        C aa = new C();
+        aa.input();
+        // aa.get_y();
+        aa.get_z();
+        aa.ans();
+    }
+}
+
