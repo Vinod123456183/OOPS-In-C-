@@ -1,5 +1,6 @@
 import java.util.Scanner;
-class 6-Single-Inheritance {
+class single 
+{
 
     Scanner sc = new Scanner(System.in);
 
