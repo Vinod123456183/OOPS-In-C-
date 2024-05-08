@@ -1,6 +1,10 @@
 // DErived class ne base class k function ko overwrite krna  
 // To avoid it use final keyword on class A final void Print(){ // }
 
+// Note Before Running Program in Vs code File Name Should Main.java
+
+
+
 class A {
   void Print()  {
         System.out.println("Inside base Class");
