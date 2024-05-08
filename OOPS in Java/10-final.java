@@ -1,3 +1,5 @@
+// Note Before Running Program in Vs code File Name Should Main.java
+
 
 final class A { 
   final void inp() {
