@@ -1,3 +1,6 @@
+// Note Before Running Program in Vs code File Name Should Main.java
+
+
 import java.util.Scanner;
     class A {
         protected int x ; 
