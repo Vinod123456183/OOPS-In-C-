@@ -1,3 +1,6 @@
+// Note Before Running Program File Name Should Main.java
+
+
 import java.util.Scanner;
 public class Main {
     static class Add {
