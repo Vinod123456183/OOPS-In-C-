@@ -1,3 +1,7 @@
+// Note Before Running Program in Vs code File Name Should Main.java
+
+
+
 
 class Main
 {
