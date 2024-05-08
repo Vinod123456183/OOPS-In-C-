@@ -1,6 +1,8 @@
 // NOTE File Name Should Main.java
 // E O C S
 
+// MAIN THREAD IS  ALWAYS CREATE BY JVM , SO MINIMUM THREAD CREATED ARE 2 , MAIN AND t THREAD
+
 
 /* Creating  Thread Using Thread CLass*/
 //  we can say This Program is Single Task Single Thread
