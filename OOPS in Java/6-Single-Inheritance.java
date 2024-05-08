@@ -1,3 +1,9 @@
+
+// Note Before Running Program in Vs code File Name Should single.java
+// Note There Are Two Code in this Page
+
+
+
 import java.util.Scanner;
 class single 
 {
@@ -39,6 +45,13 @@ class single
 
 
 }
+
+
+
+
+
+
+
 
 
 
