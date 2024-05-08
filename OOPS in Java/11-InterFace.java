@@ -1,4 +1,7 @@
 // instead of multiple inheritance we use interface Followed by Implements keyword
+// Note Before Running Program in Vs code File Name Should Main.java
+
+
 
 interface A {
     final int a = 10;
