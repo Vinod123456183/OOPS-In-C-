@@ -1,4 +1,7 @@
 // function overriding
+//  or
+// method overriding
+
 #include<bits/stdc++.h>
 using namespace std;
 
